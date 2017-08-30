@@ -35,25 +35,25 @@ export default class BaseLayout extends Component {
               <ul  className="nav navbar-nav">
 
                   <li style={navTitle}>
-                  <NavLink to="./Splash">
+                  <NavLink to="/">
                   SplashPage&nbsp;&nbsp;
                   </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="./Home">
+                  <NavLink to="/Home">
                   Home&nbsp;&nbsp;
                   </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="./About">
+                  <NavLink to="/About">
                   About &nbsp;&nbsp;
                   </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="./Portfolio">
+                  <NavLink to="/Portfolio">
                   Portfolio
                   </NavLink>
                   </li>
