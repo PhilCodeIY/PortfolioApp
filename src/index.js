@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import App from './components/App';
+import App from './components/app';
 import registerServiceWorker from './registerServiceWorker';
 
 //import React Router
@@ -23,7 +23,7 @@ ReactDOM.render(
   <Router>
     <BaseLayout>
       <Switch>
-        <Route path="/Splash" component={Splash} />
+        <Route path="/" component={Splash} />
         <Route path="/Home" component={Home} />
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio} />
