@@ -28,38 +28,45 @@ export default class BaseLayout extends Component {
       "display": "inline",
     }
     return (
-      <div className="container-fluid nav">
-        <nav className="row navbar navbar-inverse">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <ul  className="nav navbar-nav">
-
+      <div>
+        <nav>
+              <ul>
                   <li style={navTitle}>
-                  <NavLink to="/">
-                  SplashPage&nbsp;&nbsp;
-                  </NavLink>
+                    <NavLink to="/">
+                      SplashPage&nbsp;&nbsp;
+                    </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="/Home">
-                  Home&nbsp;&nbsp;
-                  </NavLink>
+                    <NavLink to="/Home">
+                      Home&nbsp;&nbsp;
+                    </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="/About">
-                  About &nbsp;&nbsp;
-                  </NavLink>
+                    <NavLink to="/About">
+                      About &nbsp;&nbsp;
+                    </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                  <NavLink to="/Portfolio">
-                  Portfolio
-                  </NavLink>
+                    <NavLink to="/Portfolio">
+                      Portfolio &nbsp;&nbsp;
+                    </NavLink>
+                  </li>
+
+                  <li style={navTitle}>
+                    <NavLink to="/Contacts">
+                      Contacts &nbsp;&nbsp;
+                    </NavLink>
+                  </li>
+
+                  <li style={navTitle}>
+                    <NavLink to="/References">
+                      References
+                    </NavLink>
                   </li>
               </ul>
-            </div>
-          </div>
         </nav>
 
         {this.props.children}

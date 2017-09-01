@@ -15,6 +15,8 @@ import Splash from './components/Splash';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import References from './components/References';
 
 
 ReactDOM.render(
@@ -27,6 +29,8 @@ ReactDOM.render(
         <Route path="/Home" component={Home} />
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/References" component={References} />
       </Switch>
     </BaseLayout>
   </Router>

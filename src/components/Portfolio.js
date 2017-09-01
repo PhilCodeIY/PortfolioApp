@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// IMPORT EMAIL COMPONENT
 import Portfolio from '../components/Portfolio'
 import { Link } from 'react-router-dom';
 
