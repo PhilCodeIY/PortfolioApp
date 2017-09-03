@@ -5,19 +5,7 @@ import {NavLink} from 'react-router-dom';
 export default class BaseLayout extends Component {
   render(){
     // INLINE STYLING
-    let titleStyle = {
-      "fontFamily": "Arizonia",
-      "fontSize": "5rem"
-    }
-    let subtitleStyle = {
-      "fontFamily": "Raleway",
-      "fontSize": "5rem"
-    }
-    let headerStyle = {
-      "textAlign": "center",
-      "height": "600px",
-      "color": "#fff",
-    }
+ 
     let navTitle = {
       "fontFamily": "Arizonia",
       "fontSize": "16px",
@@ -32,37 +20,37 @@ export default class BaseLayout extends Component {
         <nav>
               <ul>
                   <li style={navTitle}>
-                    <NavLink to="/">
+                    <NavLink to="/" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       SplashPage&nbsp;&nbsp;
                     </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                    <NavLink to="/Home">
+                    <NavLink to="/Home" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       Home&nbsp;&nbsp;
                     </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                    <NavLink to="/About">
+                    <NavLink to="/About" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       About &nbsp;&nbsp;
                     </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                    <NavLink to="/Portfolio">
+                    <NavLink to="/Portfolio" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       Portfolio &nbsp;&nbsp;
                     </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                    <NavLink to="/Contacts">
+                    <NavLink to="/Contact" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       Contacts &nbsp;&nbsp;
                     </NavLink>
                   </li>
 
                   <li style={navTitle}>
-                    <NavLink to="/References">
+                    <NavLink to="/References" activeStyle={{ fontWeight: 'bold', color: 'red' }}>
                       References
                     </NavLink>
                   </li>

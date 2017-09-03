@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Portfolio from '../components/Portfolio'
+
 import { Link } from 'react-router-dom';
 
-export default class Find extends Component {
+export default class Portfolio extends Component {
   render() {
     // INLINE STYLING
     let style = {

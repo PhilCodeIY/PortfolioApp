@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './components/app';
 import registerServiceWorker from './registerServiceWorker';
+import { Link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 //import React Router
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -17,6 +19,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import References from './components/References';
+
 
 
 ReactDOM.render(
