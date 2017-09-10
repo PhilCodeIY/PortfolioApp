@@ -40,3 +40,23 @@ ul{
 	border: 1px solid black ;
 	border-left-color: blue;
 }
+nav {
+  background-color: white;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: #2d4f1c;
+  text-decoration: none;
+  border: 1px solid #2d4f1c;
+  font-size: 12px;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.selected {
+  color: red;
+  border: 1px solid #2d4f1c;
+  box-shadow: 1px 2px 2px #000000;
+}

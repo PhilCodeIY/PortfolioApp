@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import App from './components/app';
+
 import registerServiceWorker from './registerServiceWorker';
-import { Link } from 'react-router-dom';
-import {NavLink} from 'react-router-dom';
+
 
 //import React Router
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -19,6 +18,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import References from './components/References';
+import NavBar from './components/nav'
 
 
 
@@ -27,14 +27,16 @@ ReactDOM.render(
 
   <Router>
     <BaseLayout>
-      <Switch>
-        <Route exact path="/" component={Splash} />
-        <Route path="/Home" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/References" component={References} />
-      </Switch>
+      <NavBar>
+        <Switch>
+          <Route path="/Splash" component={Splash} />
+          <Route path="/Home" component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/References" component={References} />
+        </Switch>
+      </NavBar>
     </BaseLayout>
   </Router>
 

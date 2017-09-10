@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 
 export default class Contact extends Component {
   render() {
-  
+
   let style = {
     "backgroundColor": "gray",
     "backgroundSize": "cover",
@@ -23,12 +23,12 @@ export default class Contact extends Component {
               </div>
 
               <h3>Here are a few ways to contact me:</h3>
- 
-              <div id="contacts">   
+
+              <div id="contacts">
                 <ul id="thecontacts">
                     <li>email: <a href="mailto:Phils89144@gmail.com" >Phil Schwartz</a></li>
-                    <li>Cell / Text: 516.884.0756</li>
-                    
+                    <li>Phone / Text: <a href="tel:516.884.0756">516.884.0756</a></li>
+
                     <li>
                       <NavLink to="https://github.com/PhilCodeIY" target="_blank" textDecoration= "none">
                         Git Hub
