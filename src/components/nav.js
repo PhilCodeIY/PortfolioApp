@@ -9,7 +9,6 @@ export default class NavBar extends Component {
       "display": "inline",
     }
     return (
-
     <div>
       <nav>
             <ul>
